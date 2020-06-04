@@ -7,7 +7,6 @@ class TestTestImageDetector(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.test_image_detector = TestImageDetector()
-        pass
 
     def test_test_get_image_labels_random(self):
         # Make sure that the distribution of the random good
