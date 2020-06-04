@@ -130,7 +130,7 @@ class TestImageDetector(unittest.TestCase):
         test_cases = []
         # Generate randomized index and get the element from the test_cases
         for i in range(num_of_cases):
-            index = random.randint(0,len(self.full_test_cases))
+            index = random.randint(0,len(self.full_test_cases) - 1)
             test_cases.append(self.full_test_cases[index])
         return test_cases
 
